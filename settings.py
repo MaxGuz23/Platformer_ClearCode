@@ -2,7 +2,7 @@ level_map = [
     '                           ',
     '                           ',
     '                           ',
-    ' XX    X              XX   ',
+    ' XX    XXX            XX   ',
     ' XX                        ',
     ' XXXX         XX         XX',
     ' XXXX       XX             ',
@@ -15,5 +15,3 @@ level_map = [
 TILE_SIZE = 64
 SCREEN_WIDTH = 1200
 SCREEN_HEIGHT = TILE_SIZE * len(level_map)
-
-print(SCREEN_HEIGHT)
